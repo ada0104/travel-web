@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>台中旅遊</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light a " style="background-color: rgb(255, 255, 255)">
+            <a class="navbar-brand" href="index.html"><img src="photo/logo3.png" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="stay.html">行程安排</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header">
+            <div class="uk-cover-container main">
+                <canvas width="400" height="350"></canvas>
+                <img src="photo/home2.jpg" alt="" uk-cover>
+            </div>
+            <div class="main1">
+                <div>
+                    <p>歡迎來到</p>
+                    <p>台中旅遊網</p>
+                    <p>熱情的台中人</p>
+                    <p>帶你暢玩台中山陸海景點</p>
+                </div>
+            </div>
+            <div class="main2">
+                <div class="text2">
+                    <p class="h3">How to get travel</p>
+                    <div class="how1 text3" id="repeat">
+                        <p>step1. 準備個好心情</p>
+                        <p>step2. 一個美麗假期</p>
+                        <p>step3. 身心放鬆住所</p>
+                        <p>step4. 到達景點的車</p>
+
+                    </div>
+                    <div class="letgo">
+                        <a class="btn btn-warning  btn-lg" href="stay.html" role="button">Let's Go!</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="weather">
+            <a class="weatherwidget-io" href="https://forecast7.com/zh-tw/24d16120d67/taichung/" data-label_1="台中"
+                data-label_2="天氣" data-font="微軟正黑體 (Microsoft JhengHei)" data-icons="Climacons Animated"
+                data-theme="pool_table">台中 天氣</a>
+            <script>
+                !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+            </script>
+        </div>
+
+        <div class="footer">
+            <p style="color:seashell; font-size:20px">聯絡我 ada@gmail.com</p>
+        </div>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+</body>
+
+</html>

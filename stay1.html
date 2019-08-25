@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>行程安排</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+    <div class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                    aria-selected="true">景點</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                    aria-controls="profile" aria-selected="false">美食</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                    aria-controls="contact" aria-selected="false">住宿</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div uk-slider="center: true">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                        <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/v01.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">審計新村</h3>
+                                        <p>台中政府將以前的老宿舍規劃給創業青年們作為青創基地，幫助不少初期創業的青年，也茁壯了很多人的夢想，讓沈寂的審計新村悄悄地醒了過來。</p>
+                                        <p>地址:台中市西區民生路368巷1弄6號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/v02.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">高美濕地</h3>
+                                        <p>高美濕地擁有全臺灣最大的雲林莞草草澤，孕育豐富多變的生態，形成完整的濕地體系，候鳥留鳥都對濕地有愛，蝦兵蟹將霸氣橫行。</p>
+                                        <p>地址:臺中市清水區大甲溪出海口</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/v03.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">中科落羽松</h3>
+                                        <p>中科落羽松秘境
+                                            是台中落羽松中少數可以一次拍到陸上版和水上版兩種不同風格的美照，走在中科落羽松水中木棧道上，搭配兩旁水中絕美倒影，讓人有種置身水上人家的錯覺。</p>
+                                        <p>地址:台中市西屯區光明路257號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/v04.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">台中軟體園區</h3>
+                                        <p>台中軟體園區 Dali
+                                            Art藝術廣場蒐集來自在地與全球的藝術、展演和文創作品，匯聚當代重要藝術家、藝文創作者，打造欣賞、創作多元一體的新亮點，滿足您對文創藝術的各種想像與想望！
+                                        </p>
+                                        <p>地址:台中市大里區科技路1號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/v05.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">彩虹眷村</h3>
+                                        <p>因榮民住戶黃永阜在待拆除的老屋上作畫，而有「彩虹爺爺」之稱，並引發學生蔡克斯等發動「搶救彩虹村」活動，臺中市政府以市地重劃方式將該處闢劃為公園而保存。
+                                        </p>
+                                        <p>地址:台中市南屯區春安路56巷25號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/v06.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">國家歌劇院</h3>
+                                        <p>因為它無樑柱的"曲牆"建築工法，日本建築界認為，不可能蓋得起來。最後由台灣麗明建築團隊完成，成為世界第九大新地標，也是台中新地標, 我們的驕傲。</p>
+                                        <p>地址：臺中市西屯區惠來路二段101號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/v07.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">麗寶OUTLET MALL</h3>
+                                        <p>「麗寶Outlet Mall」以快樂為出發點，實現每一個人對於渡假休閒更美好的夢想。
+                                            Outlet外觀就運用義大利渡假小鎮多彩繽紛的Portofino建築外觀搭配全台灣最大摩天輪「天空之夢」。</p>
+                                        <p>地址：台中市后里區福容路201號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/v08.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">旱溪夜市</h3>
+                                        <p>旱溪夜市位在台中市東區，約六千坪有三百多個攤商，每週二、四、五、六往往擠滿人潮與美食小吃，與逢甲商圈的大型觀光夜市不同，旱溪夜市反而是在地人平時逛街、吃點心的好去處。
+                                        </p>
+                                        <p>地址：台中市東區旱溪東路一段</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/v09 .jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">粉紅情人橋</h3>
+                                        <p>這座大坑粉紅情人橋，是以數十條鋼纜拉出的斜張橋，搭配著玻璃橋面，整個構造相當特別，粉色的色調，也讓整座橋吸睛度十足。</p>
+                                        <p>地址：台中市北屯區部子路366號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/v10.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">綠色瀑布</h3>
+                                        <p>隱藏在台中龍井龍新路一帶的「綠色瀑布」，是座被野生越橘葉蔓榕攀滿的小山坡，順著坡形生長，如同畫上一道道流水般的線條。</p>
+                                        <p>地址：台中市龍井區龍新路18號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                            uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                    </div>
+                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div uk-slider="center: true">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                        <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/f01.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">明輪蛋餅</h3>
+                                        <p>地址：台中市西屯區福星路546號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/f02.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">好泰麫</h3>
+                                        <p>地址:台中市中區三民路二段3號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/f03.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">鵝城</h3>
+                                        <p>地址：台中市中區中山路175巷4號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/f04.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">謝氏早點</h3>
+                                        <p>地址:台中市繼光街136號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/f05.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">台中肉圓</h3>
+                                        <p>地址:台中市南區復興路三段529號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                            uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                    </div>
+                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="profile-tab">
+                <div uk-slider="center: true">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                        <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/s01.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">逢甲文華道</h3>
+                                        <p>地址：台中市西屯區文華路138巷31號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/s02.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">天韻精品旅館</h3>
+                                        <p>地址:台中市西屯區市政南一路307號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/s03.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">綠宿行旅</h3>
+                                        <p>地址：台中市西區民生北路126號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/s04.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">雲端商務旅館</h3>
+                                        <p>地址:台中市中區公園路36號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="photo/s05.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">台中麻吉住宿</h3>
+                                        <p>地址:台中市北區一中街179巷7號</p>
+                                        <button type="button" class="btn btn-info">加入行程</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                            uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                    </div>
+                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="togo">
+            <p id="demo"></p>
+
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("myBtn").addEventListener("click", myFunction);
+
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "台中戲院";
+        }
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/view.js"></script>
+</body>
+
+</html>

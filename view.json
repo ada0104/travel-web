@@ -1,0 +1,72 @@
+[
+    {
+        "viewName": "台中歌劇院",
+        "viewId": 0,
+        "imgUrl": "http://lorempixel.com/1600/900/city/1",
+        "address": "",
+        "money": "1500"
+    },
+    {
+        "viewName": "秋紅谷",
+        "viewId": 1,
+        "imgUrl": "http://lorempixel.com/1600/900/city/2",
+        "address": "",
+        "money": "2350"
+    },
+    {
+        "viewName": "夢想街",
+        "viewId": 2,
+        "imgUrl": "http://lorempixel.com/1600/900/city/3",
+        "address": "",
+        "money": "1100"
+    },
+    {
+        "viewName": "藍色公路",
+        "viewId": 3,
+        "imgUrl": "http://lorempixel.com/1600/900/city/4",
+        "address": "",
+        "money": "900"
+    },
+    {
+        "viewName": "東海大學教堂",
+        "viewId": 4,
+        "imgUrl": "http://lorempixel.com/1600/900/city/5",
+        "address": "",
+        "money": "1250"
+    },
+    {
+        "viewName": "審計新村",
+        "viewId": 5,
+        "imgUrl": "http://lorempixel.com/1600/900/city/6",
+        "address": "",
+        "money": "1300"
+    },
+    {
+        "viewName": "921地震紀念公園",
+        "viewId": 6,
+        "imgUrl": "http://lorempixel.com/1600/900/city/7",
+        "address": "",
+        "money": "500"
+    },
+    {
+        "viewName": "高美濕地",
+        "viewId": 7,
+        "imgUrl": "http://lorempixel.com/1600/900/city/8",
+        "address": "",
+        "money": "2000"
+    },
+    {
+        "viewName": "鰲峰山",
+        "viewId": 8,
+        "imgUrl": "http://lorempixel.com/1600/900/city/9",
+        "address": "",
+        "money": "1000"
+    },
+    {
+        "viewName": "望高寮",
+        "viewId": 9,
+        "imgUrl": "http://lorempixel.com/1600/900/city/10",
+        "address": "",
+        "money": "1750"
+    }
+]
