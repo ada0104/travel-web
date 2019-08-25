@@ -1,0 +1,125 @@
+.logo {
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+.a {
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+}
+
+.text {
+    text-align: center;
+    line-height: 50px;
+    font-family: "Microsoft JhengHei", "FangSong", Arial, serif;
+}
+
+.home {
+    height: 600px;
+    width: 300;
+}
+
+body {
+    background-image: url('../photo/background.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-size: 100%;
+    font-family: "Microsoft JhengHei", "FangSong", Arial, serif;
+}
+
+.weather {
+    margin: 15px 0px;
+}
+
+.main {
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+}
+
+.main1 {
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    margin: 1% 0%;
+    position: static;
+    background-color: rgba(255, 187, 0, 0.629);
+    height: 50%;
+    font-size: 1.5rem;
+    line-height: 25px;
+    text-align: center;
+    color: rgb(20, 53, 102);
+    font-family: Microsoft JhengHei;
+}
+
+.main2 {
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    margin: 1% 0% 0% 0%;
+    padding: 4%;
+    position: relative;
+    top: 10%;
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+}
+
+.text2 {
+    text-align: center;
+    color: rgb(19, 76, 133);
+    font-size: 1.2rem;
+    font-family: Microsoft JhengHei;
+}
+
+.text3 {
+    text-align: center;
+    color: rgb(9, 59, 105);
+    font-family: Microsoft JhengHei;
+    font-size: 1.2rem;
+}
+
+.how1 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 50%px;
+}
+
+#repeat {
+    border: 15px solid transparent;
+    padding: 10px 20px;
+    -moz-border-image: url("../photo/border.png") 30 30 repeat;
+    /* Old Firefox */
+    -webkit-border-image: url("../photo/border.png") 30 30 repeat;
+    /* Safari */
+    -o-border-image: url("../photo/border.png") 30 30 repeat;
+    /* Opera */
+    border-image: url("../photo/border.png") 30 30 repeat;
+}
+
+
+.footer {
+    margin-top: 5%;
+    height: 80%;
+    background-color: rgb(19, 116, 133);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.adago {
+    font-family: Microsoft JhengHei;
+    color: rgb(255, 255, 255)!important;
+}
+
+h3 {
+    font-family: Microsoft JhengHei;
+    color: rgb(12, 53, 141);
+}
+.letgo{
+    margin: 1.5%;
+}
+
+
